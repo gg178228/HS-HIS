@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "구글 검색 지도 자동 동기화",
+  "version": "1.0.0",
+  "description": "구글 검색어로 네이버지도와 카카오맵을 자동 검색하고 기존 탭을 재사용합니다.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["https://www.google.com/*", "https://www.google.co.kr/*"],
+  "background": {"service_worker": "background.js"}
+}
